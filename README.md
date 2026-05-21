@@ -13,3 +13,12 @@ Claude Code 用の skills / routines 置き場。
 - 毎日 10:00 (JST) — 「挨拶メール下書き作成」: `greeting-draft` Skill を実行
 
 いずれも本リポジトリを clone した状態で起動する。
+
+## クライアント環境へのデプロイ
+
+クライアントの Claude Code で同じ仕組みをセットアップするには、[SETUP_PROMPT.md](SETUP_PROMPT.md) を参照。
+クライアントには以下の一行をClaude Codeに貼り付けてもらえばOK:
+
+```
+このURLの内容を取得して、書かれた指示に従ってクラウドRoutineをセットアップしてください: https://raw.githubusercontent.com/megtea/claude-mail/main/SETUP_PROMPT.md
+```
